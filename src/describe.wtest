@@ -1,0 +1,9 @@
+
+describe "group of tests" {
+const materia1 = new MateriaConReqCorrelativas (nombre = "Matematica", curso = [], cupo = 10, listaDeEspera = [], materiasCorrelativas = [elementos])
+const aprobada1 = new MateriaAprobada (nombre = "Matematica", nota = 7)
+const alumno1 = new Estudiante (materiasAprobadas = [Aprobada1], carrerasQueCursa = [], creditos = 0)
+	test "test1" {
+		materia1.inscribir(alumno1)
+	}
+}
